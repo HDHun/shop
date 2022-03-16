@@ -31,6 +31,9 @@ div {
 </style>
 </head>
 <body>
+
+<!-- 이름, 배송지, 등급, 전화번호, 최근주문일 -->
+
 	<header style="float: left; width: 55%;" class="d-none d-md-block d-lg-block d-xl-block d-xxl-block">
 		<input type="image" src="resources/common/xdmin/image/logo.png" style="width: 80px; float: left;">
 		<div style="font-weight: bolder; font-size: 30px; margin-top: 15px;">Market Service</div>

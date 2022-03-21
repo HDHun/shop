@@ -15,7 +15,7 @@ public class MemberDao {
 //	codeGroup
 	private SqlSession sqlSession;
 	
-	private static String namespace = "com.junefw.infra.modules.code.CodeMpp";
+	private static String namespace = "com.shopping.shop.xdmin.MemberMpp";
 
 	public List<Member> selectList(MemberVo vo) { List<Member> list = sqlSession.selectList(namespace + ".selectList",vo); return list;} 
 	
